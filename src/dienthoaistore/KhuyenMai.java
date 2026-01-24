@@ -9,5 +9,5 @@ package dienthoaistore;
  * @author Latitude E7470
  */
 public class KhuyenMai {
-    
+    private String ma;
 }
