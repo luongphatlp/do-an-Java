@@ -29,7 +29,7 @@ public class DSKhuyenMai {
         return ds;
     }
     public boolean xoa(String ma){
-        return ds.removeIf(km -> km.getMa().equals(ma));
+        return ds.removeIf(km -> ma.equals(km.getMa()));
     }
     public boolean sua(KhuyenMai kmMoi) {
         for (int i = 0; i < ds.size(); i++) {

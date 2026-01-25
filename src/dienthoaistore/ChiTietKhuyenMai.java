@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package dienthoaistore;
+
+/**
+ *
+ * @author Latitude E7470
+ */
+public class ChiTietKhuyenMai {
+    private String makm,masp;
+    private int phantram;
+    
+    public ChiTietKhuyenMai(){}
+    public ChiTietKhuyenMai(String makm,String masp,int phantram){
+        this.makm=makm;
+        this.masp=masp;
+        this.phantram=phantram;
+    }
+    public ChiTietKhuyenMai(ChiTietKhuyenMai ctkm){
+        this.makm=ctkm.makm;
+        this.masp=ctkm.masp;
+        this.phantram=ctkm.phantram;
+    }
+    public String getMaSP(){return masp;}
+    public void setMaSP(String masp){this.masp=masp;}
+    
+    public String getMaKm(){return makm;}
+    public void setMaKM(String makm){this.makm=makm;}
+    
+    public int getPhanTram(){return phantram;}
+    public void setPhanTram(int phantram){this.phantram=phantram;}
+}
