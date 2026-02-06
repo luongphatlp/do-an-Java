@@ -6,9 +6,6 @@
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="ff" green="ff" red="ff" type="rgb"/>
     </Property>
-    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[1920, 1080]"/>
-    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -135,7 +132,7 @@
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
@@ -180,7 +177,7 @@
                           <Component id="pnTK" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="NV" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="267" max="32767" attributes="0"/>
+                          <EmptySpace pref="270" max="32767" attributes="0"/>
                           <Component id="jSeparator2" min="-2" pref="12" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jButton9" min="-2" max="-2" attributes="0"/>
@@ -619,7 +616,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="khuyenmai" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -724,7 +721,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="thongke" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>

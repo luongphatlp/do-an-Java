@@ -1,7 +1,5 @@
-package GUI;
-
+package dienthoaistore.GUI;
 import java.awt.Color;
-
 /**
  *
  * @author THANH NHAN
@@ -9,6 +7,8 @@ import java.awt.Color;
 public class HomeUI extends javax.swing.JFrame {
 
     Color DefaultColor, ClickColor;
+
+            private static final java.util.logging.Logger logger =java.util.logging.Logger.getLogger(HomeUI.class.getName());
 
     public HomeUI() {
         com.formdev.flatlaf.intellijthemes.FlatCarbonIJTheme.setup();
@@ -29,7 +29,6 @@ public class HomeUI extends javax.swing.JFrame {
         BH.setBackground(DefaultColor);
         pnTK.setBackground(DefaultColor);
         NV.setBackground(DefaultColor);
-
     }
 
     @SuppressWarnings("unchecked")

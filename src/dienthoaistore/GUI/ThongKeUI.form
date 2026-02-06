@@ -327,7 +327,7 @@
                               <Component id="jTextField1" min="-2" pref="405" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="btnreset" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="57" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -389,7 +389,7 @@
                               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jDateChooser2" min="-2" pref="200" max="-2" attributes="0"/>
-                              <EmptySpace pref="64" max="32767" attributes="0"/>
+                              <EmptySpace pref="112" max="32767" attributes="0"/>
                               <Component id="btnreset1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           </Group>

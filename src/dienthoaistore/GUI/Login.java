@@ -1,7 +1,4 @@
-package GUI;
-
-
-import GUI.Register;
+package dienthoaistore.GUI;
 
 import com.formdev.flatlaf.FlatIntelliJLaf;
 
