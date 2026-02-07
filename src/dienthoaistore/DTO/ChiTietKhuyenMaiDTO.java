@@ -26,7 +26,7 @@ public class ChiTietKhuyenMaiDTO {
     public String getMaSP(){return masp;}
     public void setMaSP(String masp){this.masp=masp;}
     
-    public String getMaKm(){return makm;}
+    public String getMaKM(){return makm;}
     public void setMaKM(String makm){this.makm=makm;}
     
     public int getPhanTram(){return phantram;}

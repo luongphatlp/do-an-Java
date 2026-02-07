@@ -35,7 +35,6 @@ public class KhuyenMaiDAO {
         String qry="Delete from khuyenmai where Ma='"+ma+"'";
         try(Connection conn=MyConnection.getConnection()) {
             Statement st=conn.createStatement();
-            st=conn.createStatement();
             st.executeUpdate(qry);
         } catch (SQLException ex) {
             System.getLogger(KhuyenMaiDTO.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
@@ -68,6 +67,7 @@ public class KhuyenMaiDAO {
                 km.setNgayBD(rs.getString(3));
                 km.setNgayKT(rs.getString(4));
                 km.setGhiChu(rs.getString(5));
+                ds.add(km);
             }
         }catch(SQLException ex) {
             System.getLogger(KhuyenMaiDTO.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
