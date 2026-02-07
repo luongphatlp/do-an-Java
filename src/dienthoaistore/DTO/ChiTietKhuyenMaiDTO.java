@@ -2,23 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package dienthoaistore;
+package dienthoaistore.DTO;
 
 /**
  *
  * @author Latitude E7470
  */
-public class ChiTietKhuyenMai {
+public class ChiTietKhuyenMaiDTO {
     private String makm,masp;
     private int phantram;
     
-    public ChiTietKhuyenMai(){}
-    public ChiTietKhuyenMai(String makm,String masp,int phantram){
+    public ChiTietKhuyenMaiDTO(){}
+    public ChiTietKhuyenMaiDTO(String makm,String masp,int phantram){
         this.makm=makm;
         this.masp=masp;
         this.phantram=phantram;
     }
-    public ChiTietKhuyenMai(ChiTietKhuyenMai ctkm){
+    public ChiTietKhuyenMaiDTO(ChiTietKhuyenMaiDTO ctkm){
         this.makm=ctkm.makm;
         this.masp=ctkm.masp;
         this.phantram=ctkm.phantram;
